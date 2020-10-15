@@ -21,7 +21,10 @@ class MyComponent extends React.Component {
 
   componentDidMount() {
     
-    fetch("http://127.0.0.1:8000/fetch")
+    fetch("https://react-fetch-comic.juanseromo.vercel.app/fetch", {
+      method: "GET",
+      mode: "cors",
+    })
       .then(res => res.json())
       .then(
         (result) => {      

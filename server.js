@@ -6,7 +6,7 @@ const path = require('path');
 const app = express()
 app.use(express.static(path.join(__dirname, 'build')));
 
-const url = "http://xkcd.com/info.0.json"
+const url = "https://api.github.com/repos/vercel/next.js"
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'build', 'index.html'));
