@@ -14,4 +14,4 @@ app.get('/fetch', async (req, res) => {
   res.send('Hello from the local to the web')
 })
 
-app.listen(process.env.PORT || 8000);
+app.listen(process.env.PORT || 8000)
