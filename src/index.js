@@ -21,11 +21,7 @@ class MyComponent extends React.Component {
 
   componentDidMount() {
     
-    fetch("http://127.0.0.1:8000/fetch", {
-      method: "GET",
-      mode: "cors",
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded'}  
-    })
+    fetch("http://127.0.0.1:8000/fetch")
       .then(res => res.json())
       .then(
         (result) => {      
