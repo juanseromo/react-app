@@ -18,31 +18,7 @@ class MyComponent extends React.Component {
       items: []
     };
   }
-
-  componentDidMount() {
-    
-    fetch("https://react-fetch-comic.juanseromo.vercel.app/fetch", {
-      method: "GET",
-      mode: "cors",
-    })
-      .then(res => res.json())
-      .then(
-        (result) => {      
-          console.log(result)
-          this.setState({
-            isLoaded: true,
-            items: result
-          });
-        },
-        (error) => {
-          this.setState({
-            isLoaded: true,
-            error
-          });
-        }
-      )
-  }
-
+  
   render() {
     const { error, isLoaded, items } = this.state;
     if (error) {
