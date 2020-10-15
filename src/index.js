@@ -35,6 +35,7 @@ class MyComponent extends React.Component {
           <section className={styles.container}>
             <img className={styles.img} src="./icons-01.svg" alt="" ></img>
             <img className={styles.img} src="./icons-02.svg" alt="" ></img>
+            <p> 'This is a new parragraph added to test</p>
             <HoverRating />
           </section>
         </div>
