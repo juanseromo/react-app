@@ -18,7 +18,7 @@ class MyComponent extends React.Component {
       items: []
     };
   }
-  
+
   render() {
     const { error, isLoaded, items } = this.state;
     if (error) {
@@ -32,8 +32,8 @@ class MyComponent extends React.Component {
             <title>First Post</title>
           </Head>
           <section className={styles.container}>
-            <h1 className={styles.heading2x1}>{items[0]}</h1>
-            <img className={styles.img} src= {items[1][1]} alt="" ></img>
+            <img className={styles.img} src="./icons-01.svg" alt="" ></img>
+            <img className={styles.img} src="./icons-02.svg" alt="" ></img>
             <HoverRating />
           </section>
         </div>
