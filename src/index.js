@@ -18,6 +18,8 @@ class MyComponent extends React.Component {
       items: []
     };
   }
+
+  
   render() {
     const { error, isLoaded } = this.state;
     if (error) {
