@@ -1,0 +1,27 @@
+.container {
+  width: 100%;
+  padding: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,252,169,1) 100%);
+}
+.heading2x1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  margin: 3rem 0;
+  text-align: center;
+  color: aliceblue;
+}
+.img {
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid chocolate;
+}

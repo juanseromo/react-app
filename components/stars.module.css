@@ -1,0 +1,22 @@
+.container {
+  width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+}
+.butt {
+  margin: 20px;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  border: none;
+  border-radius: 19px;
+  background: none;
+  line-height: 40px;
+  text-align: center;
+  font-size: 30px;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
