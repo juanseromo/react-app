@@ -12,7 +12,7 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 
-app.get('/fetch', cors(), async (req, res) => {
+app.get('/fetch', async (req, res) => {
   res.send('Hello from the local to the web')
   /* return fetch(url)
   .then(response => response.json())
